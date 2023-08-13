@@ -1,0 +1,38 @@
+<html>
+
+    <head>
+
+        <title>Disappering Circles </title>
+
+        <link rel="stylesheet" href="Styles/styles.css">
+        
+    </head>
+    
+    <body>
+    
+        <div id="circleContainer">
+    
+            <div id="circle1" onclick="hideCircle('circle1')"></div>
+    
+            <div id="circle2" onclick="hideCircle('circle2')"></div>
+    
+            <div id="circle3" onclick="hideCircle('circle3')"></div>
+  
+        </div>
+
+  
+        <script>
+  
+            function hideCircle(circleId) {
+  
+                const circle = document.getElementById(circleId);
+  
+                circle.style.display = 'none';
+  
+            }
+  
+        </script>
+
+    </body>
+
+</html>
